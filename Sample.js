@@ -15,4 +15,5 @@ test('New Test', async t => {
         .click(Selector('#mainContent a').withText('Webinars'))
         .click(Selector('#mainContent a').withText('Newsletter'))
         .click(Selector('header a').withText('LOGOUT').nth(1));
+    
 });

@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe';
 
 fixture `New Fixture`
-    .page `https://dev-marketplace.claims-mp-dev.dev.us.insurance.dxc.com/claims/`;
+    .page `https://dev-marketplace.claims1-mp-dev.dev.us.insurance.dxc.com/claims1/`;
 
 test('New Test', async t => {
     await t

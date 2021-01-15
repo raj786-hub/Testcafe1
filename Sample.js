@@ -6,5 +6,5 @@ fixture `New Fixture`
 test('New Test', async t => {
     await t
         .click(Selector('header a').withText('LOGIN').nth(1))
- console.log("test completed")
+ console.log("Test completed")
     });

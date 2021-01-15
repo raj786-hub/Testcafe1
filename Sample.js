@@ -7,7 +7,7 @@ test('New Test', async t => {
     await t
         .click(Selector('header a').withText('LOGIN').nth(1))
         .typeText('#userName', 'rajkumar2')
-        .typeText('#userPassword', '123@Mummy')
+        .typeText('#userPassword', '1234')
         .click(Selector('button').withText('SIGN IN'))
         .click(Selector('header a').withText('News & Events'))
         .click(Selector('#mainContent a').withText('Conference Presentations'))
